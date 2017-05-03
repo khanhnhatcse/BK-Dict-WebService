@@ -1,0 +1,18 @@
+
+<div class="row">
+{{#each category}}
+     <div class="col-sm-6 col-md-3">
+        <div class="thumbnail">
+        <div class="caption">
+            <h3>{{name}}</h3>
+            <p>{{description}}</p>
+            <p>
+            <a href="/dict/{{_id}}" class="btn btn-primary" role="button">Chỉnh sửa</a>
+            <a href="#" class="btn btn-danger" role="button">Xóa</a>
+            </p>
+        </div>
+        </div>
+    </div>
+{{/each}}
+</div>
+ 
